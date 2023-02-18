@@ -1,9 +1,18 @@
 console.log("signup.js");
 
 import Navbar from "../Component/Navbar.js";
+import Form from "../Component/Form.js";
 // add navbar import from Navbar.js
 const navBox = document.querySelector("#nav");
 navBox.innerHTML = Navbar();
+
+let formBox = document.querySelector("#form-box");
+formBox.innerHTML = Form();
+ 
+
+
+
+
 // select form tag  
 let form = document.querySelector("#form");
 form.addEventListener("submit", (e) => {

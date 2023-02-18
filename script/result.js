@@ -21,14 +21,15 @@ if(result.length==0){
 
 function display(result){
     resultBox.innerHTML="";
-    result.forEach((e) => {
+    result.forEach((e,i) => {
        let div=document.createElement("div");
+       div.setAttribute("class", "card-result");
        let que=document.createElement("h3");
-       que.innerText=e.question;
+       que.innerText= i+1+") "+ e.question;
        let ans=document.createElement("p");
-       ans.innerText=e.answer;
+       ans.innerText="Answer"+" ->" + e.answer;
        let myans=document.createElement("p");
-       myans.innerText=e.myans;
+       myans.innerText="My-Answer" +"-> "+e.myans;
        div.append(que,ans,myans);
        resultBox.append(div); 
     });
