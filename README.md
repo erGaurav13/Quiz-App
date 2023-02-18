@@ -41,19 +41,23 @@ Flow of quiz-app:
 ## Snapshots of the project
 
 1.Signup pages
-
+  <img src="https://ibb.co/47QDyST"/>
+  
  
 *******************************************************************************
 
 2. Sign-in pages
- 
+  <img src="https://img.icons8.com/color/64/000000/html-5.png"/>
+  
 *******************************************************************************
 
 3.Quiz-page
+ <img src="https://img.icons8.com/color/64/000000/css3.png" />
+   
 *******************************************************************************
 
 4. Result Page
- 
+ <img src="https://img.icons8.com/color/64/000000/json.png"/>
 *******************************************************************************
  
  
