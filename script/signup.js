@@ -54,4 +54,5 @@ let addUser = (username, password) => {
   usersDetails.push({ username: username, password: password });
   localStorage.setItem("usersDetails", JSON.stringify(usersDetails));
   alert("Signup successful");
+  location.href = "./login.html";
 };

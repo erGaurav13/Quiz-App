@@ -27,6 +27,7 @@ const handelSubmit = (username, password) => {
   let validate = check(username, password);
   if (validate) {
     alert("Validation sucess");
+    location.href = "./quiz.html";
   } else {
     alert("False validation sucess");
   }
