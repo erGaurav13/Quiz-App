@@ -26,10 +26,10 @@ const handelSubmit = (username, password) => {
     // check password and username is correct or not
   let validate = check(username, password);
   if (validate) {
-    alert("Validation sucess");
+    alert("Login Sucesssfull Ready For Quiz");
     location.href = "./quiz.html";
   } else {
-    alert("False validation sucess");
+    alert("please check credentials");
   }
 };
 // check password and username function

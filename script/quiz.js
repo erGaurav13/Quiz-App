@@ -90,6 +90,9 @@ document.querySelector("#submit").addEventListener(
     const data = quizData[index]
     console.log(data)
     const ans = getAnswer()
+    if(!ans){
+        return
+    }
     console.log(data[ans])
     if (ans === data.correct) {
         result.push({question:data.question, answer:data[data.correct],myans:data[ans]})
@@ -130,10 +133,10 @@ allInputs.forEach(
 const quizEnd = () => {
  
 document.getElementsByClassName("container")[0].innerHTML = `
-    <div class="col">
+    <div id="res">
         <h3 class="w-100"> Hii, you've scored ${correct} / ${total} </h3>
     </div>
-    <a href="/result.html">result</a>
+    <a href="/result.html"><h2>Check Answer Key and Improve</h2></a>
 `
 }
 
