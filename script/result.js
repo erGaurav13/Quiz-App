@@ -1,7 +1,7 @@
 console.log("result.js");
-
+// get the user otin answer and corrrect ans from local storage
 let result = JSON.parse(localStorage.getItem("result")) || [];
-console.log(result);
+// console.log(result);
 let resultBox = document.querySelector("#result-box");
 
 if (result.length == 0) {
@@ -9,7 +9,7 @@ if (result.length == 0) {
 } else {
   display(result);
 }
-
+// function for display the result Cards
 function display(result) {
   resultBox.innerHTML = "";
   result.forEach((e, i) => {

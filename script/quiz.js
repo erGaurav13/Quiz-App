@@ -141,7 +141,7 @@ document.querySelector("#submit").addEventListener(
     if(!ans){
         return
     }
-    console.log(data[ans])
+    // console.log(data[ans])
     if (ans === data.correct) {
         result.push({question:data.question, answer:data[data.correct],myans:data[ans]})
         localStorage.setItem("result",JSON.stringify(result));
@@ -177,7 +177,7 @@ allInputs.forEach(
     }
 )
 }
-
+// after the question is over
 const quizEnd = () => {
  
 document.getElementsByClassName("container")[0].innerHTML = `
