@@ -29,6 +29,7 @@
 .col {
     text-align: justify;
     padding: 15px;
+    font-weight: bolder;
     width: 95%;
 }
  
@@ -59,4 +60,9 @@
 
 #res a{
 text-decoration: none;
+}
+
+.container input{
+   
+    border: 1px solid red;
 }

@@ -44,7 +44,7 @@ border-radius: 10px;
     color: white;
 }
 
- 
+ /* Responsive Done  */
 @media screen and (max-width: 400px) {
     
     #form-box{
@@ -53,4 +53,11 @@ border-radius: 10px;
         
         }
      
+  }
+
+  @media   screen and  (min-width: 400px) and (max-width:900px){
+    
+    #form-box{ 
+        width: 90%;
+        }
   }
