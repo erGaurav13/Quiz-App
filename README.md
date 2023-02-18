@@ -5,10 +5,10 @@
 Flow of quiz-app:
 
 1)user can create Account : 
-                       :a) user can not sumbit empty input field;
-                        b) user can not submit alreeady registered username;
-                        c) if username is unique Then user registered sucessfull;
-                        d) After registered user navigate to Login page
+                       -a) user can not sumbit empty input field;
+                       -b) user can not submit alreeady registered username;
+                       -c) if username is unique Then user registered sucessfull;
+                       -d) After registered user navigate to Login page
 
 2)user can login :
                      :  a) user can not sumbit empty input field;
