@@ -1,11 +1,11 @@
-#signIn-Box{
+#form-box{
 border: 1px solid royalblue;
 width: 50%;
 margin: auto;
 margin-top: 30px;
 }
 
-#signIn-Box form input{
+#form-box form input{
     display: flex;
     margin: auto;
     width: 80%;
